@@ -1,2 +1,67 @@
 # tech-work
 Mini projeto de uma página simples
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Tech Work Company - Página Inicial</title>
+  <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+  <nav>
+    <a href="#sobre">Sobre</a> |
+    <a href="#missao">Missão</a> |
+    <a href="#visao">Visão</a> |
+    <a href="#valores">Valores</a> |
+    <a href="#contato">Contato</a>
+  </nav>
+
+  <hr>
+
+  <section id="sobre">
+    <h1>Bem-vindo à Tech Work Company</h1>
+    <p>
+      A Tech Work Company é uma empresa de marketing digital que acredita no poder da estratégia, da criatividade e da tecnologia
+      para transformar marcas. Atuamos com soluções completas para negócios que querem crescer no digital.
+    </p>
+  </section>
+
+  <section id="missao">
+    <h2>Missão</h2>
+    <p>
+      Transformar marcas e empresas com estratégias inteligentes de marketing, gerando resultados reais e conexões duradouras com o público.
+    </p>
+  </section>
+
+
+  <section id="visao">
+    <h2>Visão</h2>
+    <p>
+      Ser referência em marketing digital no Brasil, reconhecida por impulsionar negócios com criatividade, tecnologia e resultados.
+    </p>
+  </section>
+
+
+  <section id="valores">
+    <h2>Valores</h2>
+    <ul>
+      <li>Inovação</li>
+      <li>Ética</li>
+      <li>Transparência</li>
+      <li>Comprometimento</li>
+      <li>Resultados</li>
+    </ul>
+  </section>
+
+
+  <section id="contato">
+    <h2>Entre em contato</h2>
+    <p>E-mail: contato@techworkcompany.com</p>
+    <p>Instagram: @techworkcompany</p>
+  </section>
+
+</body>
+</html>
+
