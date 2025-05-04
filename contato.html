@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Tech Work Company - Contato</title>
+  <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+  
+  <nav>
+    <a href="index.html">Início</a> |
+    <a href="servicos.html">Serviços</a> |
+    <a href="equipe.html">Equipe</a> |
+    <a href="contato.html">Contato</a>
+  </nav>
+
+  <hr>
+
+  <h1>Fale com a Tech Work Company</h1>
+  <p>Estamos prontas para atender você. Preencha o formulário abaixo e entraremos em contato o mais breve possível!</p>
+
+  <form action="#" method="post">
+    <label for="nome">Nome:</label><br>
+    <input type="text" id="nome" name="nome" placeholder="Seu nome completo" required><br><br>
+
+    <label for="email">E-mail:</label><br>
+    <input type="email" id="email" name="email" placeholder="exemplo@dominio.com" required><br><br>
+
+    <label for="telefone">Telefone:</label><br>
+    <input type="tel" id="telefone" name="telefone" placeholder="(XX) 9XXXX-XXXX"><br><br>
+
+    <label for="assunto">Assunto:</label><br>
+    <select id="assunto" name="assunto" required>
+      <option value="">Selecione...</option>
+      <option value="orcamento">Solicitar orçamento</option>
+      <option value="duvida">Tirar dúvidas</option>
+      <option value="parceria">Propor parceria</option>
+    </select><br><br>
+
+    <label for="mensagem">Mensagem:</label><br>
+    <textarea id="mensagem" name="mensagem" rows="5" cols="40" placeholder="Escreva sua mensagem aqui..." required></textarea><br><br>
+
+    <button type="submit">Enviar</button>
+  </form>
+
+</body>
+</html>
